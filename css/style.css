@@ -8,7 +8,7 @@
 
 body {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
-  background-color: #f6f5f3;
+  background-color: #f8f7f6;
 }
 
 /* UTILS */
@@ -84,6 +84,11 @@ iframe {
   aspect-ratio: 1.75;
 }
 
+.page-title {
+  margin-bottom: 20px;
+  line-height: 1.8rem;
+}
+
 h3 {
   font-size: 1.5rem;
   font-weight: 800;
@@ -91,13 +96,23 @@ h3 {
 }
 
 h4 {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h5 {
   color: #9d9d9d;
   font-size: 0.9rem;
   font-weight: lighter;
 }
 
-.page-title {
-  margin-bottom: 20px;
+.info-recipe {
+  background-color: white;
+  min-height: 200px;
+  padding: 25px;
+  font-size: 0.8rem;
   line-height: 1.8rem;
 }
 
