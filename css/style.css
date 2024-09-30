@@ -139,3 +139,18 @@ h5 {
 img[alt~="Tiramisù"] {
   max-width: 60%;
 }
+
+.presentation {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+hr {
+  margin: 10px 0 10px 0;
+  width: 20%;
+  border: 1px solid #f48f1e;
+}
