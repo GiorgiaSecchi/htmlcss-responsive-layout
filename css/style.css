@@ -46,22 +46,23 @@ img {
 
 /* # DEBUG */
 
-/* .debug,
+.debug,
 .debug * {
   background-color: lightgrey;
   border: 2px dashed black;
   padding: 10px;
   min-height: 50px;
-} */
+}
 
 /* HEADER */
 
 header {
   background-color: white;
-}
+  min-height: 70px;
 
-.page-title {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
