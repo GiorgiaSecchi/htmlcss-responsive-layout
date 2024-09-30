@@ -54,3 +54,7 @@ img {
 }
 
 /* HEADER */
+
+.page-title {
+  text-align: center;
+}
