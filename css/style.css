@@ -8,6 +8,7 @@
 
 body {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
+  background-color: #f6f5f3;
 }
 
 /* UTILS */
@@ -45,15 +46,19 @@ img {
 
 /* # DEBUG */
 
-.debug,
+/* .debug,
 .debug * {
   background-color: lightgrey;
   border: 2px dashed black;
   padding: 10px;
   min-height: 50px;
-}
+} */
 
 /* HEADER */
+
+header {
+  background-color: white;
+}
 
 .page-title {
   text-align: center;
@@ -61,6 +66,7 @@ img {
 
 h1 {
   color: darkorange;
+  font-family: Nerko One, cursive;
 }
 
 /* MAIN */
