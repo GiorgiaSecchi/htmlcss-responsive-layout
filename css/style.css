@@ -132,7 +132,8 @@ h5 {
 .social {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   align-items: center;
 }
 
@@ -150,7 +151,6 @@ h5 {
 
 img[alt~="Tiramisù"] {
   max-width: 60%;
-  margin: 10px 80px 10px 80px;
 }
 
 .presentation {
@@ -228,6 +228,8 @@ a {
     padding: 0px 40px 0 40px;
   }
 
+  /* video ricetta */
+
   .d-md-inline {
     display: inline;
   }
@@ -253,12 +255,34 @@ a {
     justify-content: space-between;
   }
 
-  .w-90 {
-    width: 90%;
+  .w-95 {
+    width: 95%;
   }
 
-  .w-68 {
-    width: 68%;
+  .w-70 {
+    width: 70%;
+  }
+
+  /* banner */
+
+  .d-md-block {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* social */
+
+  .social {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* presentation */
+
+  .pres-content img {
+    float: left;
+    margin-right: 15px;
   }
 
   /* FOOTER */
