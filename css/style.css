@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
 /* UTILS */
 
 .container {
