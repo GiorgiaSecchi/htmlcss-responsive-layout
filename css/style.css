@@ -59,6 +59,8 @@ img {
 header {
   background-color: white;
   min-height: 70px;
+  align-items: center;
+  padding: 10px;
 
   display: flex;
   justify-content: center;
@@ -205,7 +207,27 @@ a {
 /****** RESPONSIVE *****/
 
 @media screen and (min-width: 768px) {
-  h1 {
-    color: red;
+  /* HEADER */
+
+  header {
+    justify-content: left;
   }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  /* MAIN */
+
+  main .container {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 0px 40px 0 40px;
+  }
+
+  .d-md-inline {
+    display: inline;
+  }
+
+  /* FOOTER */
 }
