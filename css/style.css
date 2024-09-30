@@ -278,6 +278,10 @@ a {
     padding-bottom: 20px;
   }
 
+  .btn {
+    width: 18%;
+  }
+
   /* presentation */
 
   .pres-content img {
