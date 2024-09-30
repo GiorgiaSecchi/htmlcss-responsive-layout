@@ -65,7 +65,15 @@ h1 {
 
 /* MAIN */
 
+/* video ricetta */
+
 iframe {
   width: 100%;
   aspect-ratio: 1.75;
+}
+
+/* presentation */
+
+img[alt~="Tiramisù"] {
+  max-width: 60%;
 }
