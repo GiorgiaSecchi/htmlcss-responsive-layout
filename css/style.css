@@ -23,8 +23,14 @@ img {
   max-width: 100%;
 }
 
-/* HEADER */
+/* # DEBUG */
 
-h1 {
-  color: blue;
+.debug,
+.debug * {
+  background-color: lightgrey;
+  border: 2px dashed black;
+  padding: 10px;
+  min-height: 50px;
 }
+
+/* HEADER */
