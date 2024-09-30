@@ -11,6 +11,10 @@ body {
   background-color: #f8f7f6;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* UTILS */
 
 .container {
@@ -117,7 +121,6 @@ h5 {
 
 .info-recipe {
   background-color: white;
-  min-height: 200px;
   padding: 25px;
   font-size: 0.8rem;
   line-height: 1.8rem;
@@ -227,6 +230,35 @@ a {
 
   .d-md-inline {
     display: inline;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+
+  /* .info-recipe ul > li {
+    display: inline;
+  } */
+
+  .row > p {
+    display: inline;
+  }
+
+  .row {
+    min-height: 40px;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .w-90 {
+    width: 90%;
+  }
+
+  .w-68 {
+    width: 68%;
   }
 
   /* FOOTER */
