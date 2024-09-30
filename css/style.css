@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 body {
@@ -63,12 +64,8 @@ img {
 header {
   background-color: white;
   min-height: 70px;
-  align-items: center;
+  text-align: center;
   padding: 10px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1 {
@@ -136,6 +133,7 @@ h5 {
   padding-top: 20px;
   padding-bottom: 20px;
   align-items: center;
+  gap: 20px;
 }
 
 .btn {
@@ -214,7 +212,7 @@ a {
   /* HEADER */
 
   header {
-    justify-content: left;
+    text-align: left;
   }
 
   /* MAIN */
