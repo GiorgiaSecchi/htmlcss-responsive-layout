@@ -116,6 +116,24 @@ h5 {
   line-height: 1.8rem;
 }
 
+/* social */
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 9px 15px 9px 15px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
 /* presentation */
 
 img[alt~="Tiramisù"] {
