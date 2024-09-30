@@ -288,4 +288,16 @@ a {
   .info-recipe > p {
     display: block;
   }
+
+  .video-recipe {
+    display: flex;
+  }
+
+  .info-recipe {
+    width: 40%;
+  }
+
+  .video-youtube {
+    width: 60%;
+  }
 }
