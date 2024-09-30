@@ -46,13 +46,13 @@ img {
 
 /* # DEBUG */
 
-.debug,
+/* .debug,
 .debug * {
   background-color: lightgrey;
   border: 2px dashed black;
   padding: 10px;
   min-height: 50px;
-}
+} */
 
 /* HEADER */
 
@@ -72,11 +72,33 @@ h1 {
 
 /* MAIN */
 
+main .container {
+  margin-top: 20px;
+  padding: 0px 20px 0 20px;
+}
+
 /* video ricetta */
 
 iframe {
   width: 100%;
   aspect-ratio: 1.75;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #53476d;
+}
+
+h4 {
+  color: #9d9d9d;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  line-height: 1.8rem;
 }
 
 /* presentation */
