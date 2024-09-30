@@ -22,3 +22,9 @@ body {
 img {
   max-width: 100%;
 }
+
+/* HEADER */
+
+h1 {
+  color: blue;
+}
