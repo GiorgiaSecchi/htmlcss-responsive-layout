@@ -300,4 +300,13 @@ a {
   .video-youtube {
     width: 60%;
   }
+
+  .d-lg-inline {
+    display: inline;
+  }
+
+  .social button > span {
+    margin-left: 10px;
+    font-weight: bold;
+  }
 }
