@@ -125,6 +125,10 @@ h5 {
   box-shadow: 5px 5px 20px #e5e5e5;
 }
 
+.grid-container {
+  display: block;
+}
+
 /* social */
 
 .social {
@@ -237,9 +241,9 @@ a {
     display: inline;
   } */
 
-  .info-recipe > p {
-    display: inline;
-    margin-right: 60px;
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 
   /* banner */
