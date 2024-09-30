@@ -74,6 +74,7 @@ header {
 h1 {
   color: darkorange;
   font-family: Nerko One, cursive;
+  font-size: 2rem;
 }
 
 /* MAIN */
@@ -217,7 +218,7 @@ a {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 
   /* MAIN */
@@ -242,25 +243,9 @@ a {
     display: inline;
   } */
 
-  .row > p {
+  .info-recipe > p {
     display: inline;
-  }
-
-  .row {
-    min-height: 40px;
-    display: flex;
-
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .w-95 {
-    width: 95%;
-  }
-
-  .w-70 {
-    width: 70%;
+    margin-right: 60px;
   }
 
   /* banner */
@@ -289,5 +274,18 @@ a {
     margin-right: 15px;
   }
 
-  /* FOOTER */
+  hr {
+    margin: 10px 0 30px 0;
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-recipe > p {
+    display: block;
+  }
 }
